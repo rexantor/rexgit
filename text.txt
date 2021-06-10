@@ -1,0 +1,11 @@
+cd 
+cd /o
+ls
+cd git/
+git config --global user.name "rexantor"
+git config --global user.email mdsajibrahmanantor@gmail.com
+git clone https://github.com/rexantor/rexgit.git
+git add test.txt
+git status
+git commit -m "My Name" text.txt
+git push -u origin master
